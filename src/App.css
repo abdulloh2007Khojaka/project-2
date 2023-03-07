@@ -1,38 +1,507 @@
-.App {
-  text-align: center;
+.blg-con{
+    background-color: #002547;
+    width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.dolor{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* Cta */
+    color: #1D92FF;
+    margin-top: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.saas{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 140%;
+    /* or 84px */
+    text-transform: capitalize;
+    color: #FFFFFF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.growing{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.free{
+    background-color: #002547;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    border-radius: 3px;
+    /* or 23px */
+    text-transform: capitalize;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 1px solid #1D92FF;
+    width: 115px;
+    height: 30px;
+    margin: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.free:hover{
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+    text-transform: capitalize;
+    /* Cta */
+    color: #1D92FF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition-duration: 0.5s;
+}
+
+
+
+.example{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.oneBetter{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 135%;
+    /* or 53px */
+    text-transform: capitalize;
+    color: #000000;
+}
+
+
+
+
+.fundamental{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    text-transform: capitalize;
+    color: rgba(1, 7, 13, 0.7);
+}
+
+
+
+
+.alll{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    text-transform: capitalize;
+    /* black */
+    color: #01070D;
+    opacity: 0.5;
+}
+
+
+
+
+.likeSaas{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 140%;
+    /* or 55px */
+    text-transform: capitalize;
+    color: #01070D;
+}
+
+
+
+
+.loremss{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: rgba(1, 7, 13, 0.6);
+}
+
+
+
+
+.dablFree{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+    text-transform: capitalize;
+    /* Cta */
+    background-color: #1D92FF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 158px;
+    height: 30px;
+    margin: 3%;
+    border: none;
+    color: #FFFFFF;
+}
+
+
+
+.dablFree:hover{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+    text-transform: capitalize;
+    /* Cta */
+    color: #1D92FF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 1px #1D92FF solid;
+    background-color: #FFFFFF;
+    transition-duration: 0.5s;
+}
+
+
+
+
+.loudest{
+    /* H3 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 135%;
+    /* or 53px */
+    text-align: center;
+    color: #000000;
+}
+
+
+
+
+.adipis{
+    /* H7 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+.layoAll{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    text-transform: capitalize;
+    color: #000000;
+}
+
+
+
+
+.alltedPP{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    text-align: center;
+    color: rgba(1, 7, 13, 0.7);
+}
+
+
+
+
+.keepBuy{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 135%;
+    /* identical to box height, or 53px */
+    text-align: center;
+    text-transform: capitalize;
+    color: #01070D;
+    margin-top: 10%;
+}
+
+
+
+
+.lowering{
+    /* H7 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    text-align: center;
+    color: rgba(1, 7, 13, 0.7);
+}
+
+
+
+.studu{
+    /* H6 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    color: #01070D;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+
+
+
+
+.studuP{
+    /* H8 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+    /* or 21px */
+    text-align: center;
+    color: rgba(1, 7, 13, 0.7);
+}
+
+
+
+.money{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 135%;
+    /* identical to box height, or 53px */
+    color: #01070D;
+}
+
+
+
+.monnauly{
+    background-color: #FFFFFF;
+    box-shadow: 4px 2px 38px rgba(0, 0, 0, 0.02);
+    border-radius: 18px;
+    width: 110px;
+    height: 34px;
+    color: #000000;
+    border: 1px solid gray;
+}
+
+
+
+.monnauly:hover{
+    background-color: #002547;
+    color: #1D92FF;
+    transition-duration: 0.5s;
+}
+
+
+
+.nowBuy{
+    background-color: #1D92FF;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+    text-transform: capitalize;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 208px;
+    height: 43px;
+    border: none;
+}
+
+
+
+.nowBuy:hover{
+    background-color: #FFFFFF;
+    color: #1D92FF;
+    transition-duration: 0.5s;
+}
+
+
+
+
+.bckCol:hover{
+    background-color: #002547;
+    color: #FFFFFF;
+    transition-duration: 0.5s;
+}
+
+
+
+.lastCon{
+    background-color: #002547;
+    width: 100%;
+}
+
+
+
+
+.ametDl{
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+
+
+.suntut{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+
+
+.icoInp{
+    background-color: #002547;
+    opacity: 0.5;
+    backdrop-filter: blur(137px);
+    border-radius: 25px;
+}
+
+
+
+.arrow{
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    color: #1D92FF;
+}
+
+
+
+.fooCon{
+    background-color: #070C11;
+    opacity: 0.95;
+    width: 100%;
+    /* position: fixed;
+    bottom: 0;
+    margin-top: 25%; */
+}
+
+
+
+.imgPP{
+    color: gray;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+
+.custoAll{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+
+.usInput{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    /* identical to box height, or 20px */
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #070C11;
+    border-radius: 14px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+.lll{
+    font-size: 25px;
+    background-color: #1D92FF;
+    color: white;
 }

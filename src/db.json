@@ -1,0 +1,109 @@
+{
+    "posts" : [
+        {
+            "id" : 1,
+            "name" : "Abdulloh",
+            "surname" : "Alijonov",
+            "age" : 16
+        },
+        {
+            "id" : 2,
+            "name" : "Muhammadamin",
+            "surname" : "Rahmatjonov",
+            "age" : 16
+        },
+        {
+            "id" : 3,
+            "name" : "Firdavs",
+            "surname" : "Isroiljonov",
+            "age" : 13
+        },
+        {
+            "id" : 4,
+            "name" : "Kamoliddin",
+            "surname" : "Xaydaraliyev",
+            "age" : 18
+        },
+        {
+            "id" : 5,
+            "name" : "Abdushukur",
+            "surname" : "Urinboyev",
+            "age" : 40
+        },
+        {
+            "id" : 6,
+            "name" : "Nilufar",
+            "surname" : "Hasanova",
+            "age" : 15
+        },
+        {
+            "id" : 7,
+            "name" : "Farangiz",
+            "surname" : "Oripova",
+            "age" : 16
+        },
+        {
+            "id" : 8,
+            "name" : "Xuboberdi",
+            "surname" : "Qochqorov",
+            "age" : 15
+        }
+    ],
+
+    "comments" : [
+        {
+            "id" : 1,
+            "ismi" : "Xuboberdi",
+            "familiyasi" : "Qochqorov",
+            "maktabi" : 3
+        },
+        {
+            "id" : 2,
+            "ismi" : "Abdulloh",
+            "familiyasi" : "Alijonov",
+            "maktabi" : 16
+        },
+        {
+            "id" : 3,
+            "ismi" : "Muhammadamin",
+            "familiyasi" : "Rahmatjonov",
+            "maktabi" : 16
+        },
+        {
+            "id" : 4,
+            "ismi" : "Firdavs",
+            "familiyasi" : "Isroiljonov",
+            "maktabi" : 13
+        },
+        {
+            "id" : 5,
+            "ismi" : "Kamoliddin",
+            "familiyasi" : "Xaydaraliyev",
+            "maktabi" : 18
+        },
+        {
+            "id" : 6,
+            "ismi" : "Abdushukur",
+            "familiyasi" : "Urinboyev",
+            "maktabi" : 40
+        },
+        {
+            "id" : 7,
+            "ismi" : "Nilufar",
+            "familiyasi" : "Hasanova",
+            "maktabi" : 15
+        },
+        {
+            "id" : 8,
+            "ismi" : "Farangiz",
+            "familiyasi" : "Oripova",
+            "maktabi" : 16
+        },
+        {
+            "id" : 9,
+            "ismi" : "Xamidullo",
+            "familiyasi" : "Alijonov",
+            "maktabi" : 11
+        }
+    ]
+}
